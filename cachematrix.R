@@ -3,7 +3,7 @@
 # computation data can be retrieved from cache instead of being recalculated.
 
 # It is assumed the input matrix is always invertible (i.e. squared and non singular),
-# so no invertibility check is implemented in the code.
+# so no invertibility check is not implemented in the code.
 
 
 # makeCacheMatrix returns a special matrix object consisting in a list of 4 functions
