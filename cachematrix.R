@@ -50,3 +50,16 @@ cacheSolve <- function(x, ...) {
     invMatrix
 
 }
+
+# Test sample
+
+# first row creates new matrix m
+# second row creates new list M
+# third row calculates inverse for the first time
+# fourth row recalculates inverse to show cache access
+
+# m = matrix(rnorm(100),nrow=10)
+# M = makeCacheMatrix(m)
+# cacheSolve(M)
+# cacheSolve(M)
+ 
